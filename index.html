@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./estilos/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg colorNav">
+            <div class="container-fluid">
+                <div class="logoEstudio">
+                    <a class="navbar-brand logoEstudio__a" href="#"><img class="logoIMG"src="./imagenes/logo.png"/></a>
+                    <p>Estudio Juridico</p>
+                </div>
+              <button class="navbar-toggler botonCelu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon botonCelu__icono"></span>
+              </button>
+              <div class="collapse navbar-collapse navMenu" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contactanos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Nuestros servicios
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Derecho Penal</a></li>
+                      <li><a class="dropdown-item" href="#">Derecho Civil</a></li>
+                      <li><a class="dropdown-item" href="#">Derecho Laboral</a></li>
+                      <li><a class="dropdown-item" href="#">Amparos de Salud</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <main class="mainIndex ">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+          <div class="max-height-350px">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark bg-dark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./imagenes/civil.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block backgroundCarrusel">
+                  <h5>Derecho Civil</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./imagenes/laboral.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block backgroundCarrusel">
+                  <h5>Derecho Laboral</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="./imagenes/penal.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block backgroundCarrusel">
+                  <h5>Derecho Penal</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <img src="./imagenes/salud.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block backgroundCarrusel">
+                  <h5>Amparos de Salud</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div> 
+      </div>    
+
+    </main>
+
+
+
+        <footer>
+          <!-- Section: Links  -->
+          <section class="footerLetra">
+            <div class="container text-center text-md-start mt-5">
+              <!-- Grid row -->
+              <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                  <!-- Content -->
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    <i class="fas fa-gem me-3"></i>Gomez De Rito + Torino Bornancin
+                  </h6>
+                  <p>
+                    Estudio Juridico penal, laboral, civil y civil federal en amparos de salud.
+                  </p>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    Products
+                  </h6>
+                  <p>
+                    <a href="#!" class="text-reset">Penal</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Civil</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Laboral</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Amparos de salud</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    Useful links
+                  </h6>
+                  <p>
+                    <a href="#!" class="text-reset">PJN</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">JCABA</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">CSJN</a>
+                  </p>
+                  <p>
+                    <a href="#!" class="text-reset">Calculadora Liquidacion Laboral</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+        
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                  <!-- Links -->
+                  <h6 class="text-uppercase fw-bold mb-4">
+                    Contact
+                  </h6>
+                  <p><i class="fas fa-home me-3"></i> Gavilan .......,Flores, CABA</p>
+                  <p>
+                    <i class="fas fa-envelope me-3"></i>
+                    estudio.....@GMT.com
+                  </p>
+                  <p><i class="fas fa-phone me-3"></i> +59 9 11000000</p>
+                  <p><i class="fas fa-print me-3"></i> +59 9 11000000</p>
+                </div>
+                <!-- Grid column -->
+              </div>
+              <!-- Grid row -->
+            </div>
+          </section>
+
+            <!-- Grid container -->
+            <div class="container p-4 pb-0 text-center text-dark">
+              <!-- Section: Social media -->
+              <section class="mb-4">
+                <!-- Facebook -->
+                <a
+                  href="#!"
+                  role="button"
+                  ><img class="iconos" src="./imagenes/facebook.png"></img
+                ></a>
+          
+                <!-- Twitter -->
+                <a
+                  href="#!"
+                  role="button"
+                  ><img class="iconos" src="./imagenes/twitter.png"></img
+                  ></a>
+          
+                <!-- Google -->
+                <a
+                  href="#!"
+                  role="button"
+                  ><img class="iconos" src="./imagenes/instagram.png"></img
+                  ></a>
+          
+                <!-- Instagram -->
+                <a
+                  href="#!"
+                  role="button"
+                  ><img class="iconos" src="./imagenes/linkedin.png"></img
+                  ></a>
+
+              </section>
+              <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.233);">
+              © 2022 Copyright:
+              <a class="text-dark" href="#">GMT.com.ar</a>
+            </div>
+            <!-- Copyright -->
+
+
+    </footer>
+
+    <script src="./scripts/scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
