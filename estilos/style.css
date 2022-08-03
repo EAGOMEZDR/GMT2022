@@ -13,10 +13,21 @@
 }
 
 .logoEstudio__a{
-    font-size: 15vh;
+    font-size: 8vh;
+    margin-left: 3vh;
 }
+
 .logoIMG{
-    max-height: 30vh;
+    max-height: 18vh;
+
+}
+
+.logoIMGFoot{
+    max-height: 9vh;
+}
+
+.subtitulo{
+    font-size: 1.5vh;
 }
 
 .botonCelu{
@@ -24,7 +35,7 @@
     width: 12vh;
 }
 .colorNav{
-    background-color: rgba(250, 235, 215, 0.616);
+    background:linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(196, 196, 196, 0.355) 9%)
 }
 
 .botonCelu__icono{
@@ -38,8 +49,10 @@
 }
 
 .navMenu > ul >li, .navMenu > ul >li>ul>li{
-    padding: 0 3vh;
-    font-size: 3vh;
+    padding: 0 5vh;
+    font-size: 2vh;
+    font-weight: bold;
+    
 }
 
 .backgroundCarrusel{
@@ -56,7 +69,20 @@
     margin: 2vh;
 }
 
-main{
-    background-color: black;
+
+.mainContacto{
+    padding:3vh;
+
 }
 
+.footerIndex,.footerContacto,.footerServicios,.footerNosotros{
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(196, 196, 196, 0.355) 4%);
+}
+
+.descripcion{
+    text-align: center;
+}
+.fotoAbogado{
+    max-height: 50vh;
+    width: auto;
+}

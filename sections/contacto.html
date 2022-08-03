@@ -7,9 +7,253 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../estilos/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="shortcut icon" href="./imagenes/logo.ico" type="image/x-icon">
 </head>
 <body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg colorNav">
+            <div class="container-fluid">
+                <div class="logoEstudio">
+                    <a class="navbar-brand logoEstudio__a" href="../index.html"><img class="logoIMG"src="../imagenes/logo.png"/></a>
+                    <p class="subtitulo">Estudio Juridico</p>
+                </div>
+              <button class="navbar-toggler botonCelu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon botonCelu__icono"></span>
+              </button>
+              <div class="collapse text-center navbar-collapse navMenu" id="navbarNavDropdown">
+
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./contacto.html">Contacto</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./servicios.html">Servicios</a>
+                  </li>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
     
+    <main class="mainContacto">
+        <h2 class="mainContacto__h3">CONTACTENOS</h2>
+            <form class="row g-3" action="https://formsubmit.co/gomezdr.torinob@gmail.com" method="POST">
+                <div class="col-md-4">
+                  <label for="validationDefault01" class="form-label">Nombre completo</label>
+                  <input type="text" class="form-control" id="validationDefault01" value="" required>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationDefault02" class="form-label">Apellido completo</label>
+                  <input type="text" class="form-control" id="validationDefault02" value="" required>
+                </div>
+                <div class="col-md-4">
+                  <label for="validationDefaultUsername" class="form-label">Celular</label>
+                  <div class="input-group">
+                    <span class="input-group-text" id="inputGroupPrepend2">+54-911</span>
+                    <input type="text" placeholder=" Ingrese su numero sin 15" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                    <label for="validationDefault04" class="form-label">Provincia*</label>
+                    <select class="form-select textForms" id="validationDefault04" required>
+                      <option selected disabled value="">Elige...</option>
+                      <option>C.A.B.A.</option>
+                      <option>Buenos Aires</option>
+                    </select>
+                  </div>
+                <div class="col-md-6">
+                  <label for="validationDefault03" class="form-label">Ciudad/Barrio*</label>
+                  <input type="text" class="form-control" id="validationDefault03" required>
+                </div>
+                <div class="row g-2">
+                    <div class="col-md">
+                      <div class="form-floating form-black " >
+                        <input type="email" class="form-control " id="floatingInputGrid" >
+                        <label for="floatingInputGrid" class="form-black" > Ingrese su email..</label>
+                      </div>
+                    </div>
+                    <div class="col-md">
+                      <div class="form-floating">
+                        <select class="form-select textForms" id="floatingSelectGrid" aria-label="Floating label select example">
+                          <option selected >Seleccione una opcion</option>
+                          <option value="1">Penal</option>
+                          <option value="2">Civil</option>
+                          <option value="3">Laboral</option>
+                          <option value="4">Administrativo</option>
+                          <option value="3">Desconozco</option>
+                        </select>
+                        <label for="floatingSelectGrid" class="form-black">Seleccione fuero de consulta</label>
+                      </div>
+                    </div>
+                  </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Ingrese su consulta</label>
+                    <textarea placeholder="Escriba su consulta con el mayor detalle posible. En casos de trabajo irregular, accidentes de transito o imputaciones de delitos, mencione brevemente que prueba posee (testigos, contratos, poderes, recibos de sueldo, cheques, etc)." class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                 
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                      Acepto los terminos y condiciones
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                      <label class="form-check-label" for="invalidCheck2">
+                        Acepto que el estudio se contacte al celular registrado precedentemente.
+                      </label>
+                    </div>
+                  </div>
+                <div class="col-12">
+                  <button class="btn btn-primary" type="submit">Enviar formulario</button>
+                </div>
+              </form>
+
+    </main>
+
+    <footer class="footerContacto">
+        <!-- Section: Links  -->
+        <section class="footerLetra">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4 descripcion">
+                  <img class="logoIMGFoot"src="../imagenes/logo.png"/>
+                </h6>
+                <p class="descripcion">
+                  Estudio Juridico penal, laboral, civil y civil federal en amparos de salud.
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Nav
+                </h6>
+                <p>
+                  <a href="../index.html" class="text-reset">Inicio</a>
+                </p>
+                <p>
+                  <a href="../sections/nosotros.html" class="text-reset">Nosotros</a>
+                </p>
+                <p>
+                  <a href="../sections/contacto.html" class="text-reset">Contacto</a>
+                </p>
+                <p>
+                  <a href="../sections/servicios.html" class="text-reset">Servicios</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Useful links
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">PJN</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">JCABA</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">CSJN</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Calculadora Liquidacion Laboral</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Contacto
+                </h6>
+                <p><i class="fas fa-home me-3"></i> Gavilan .......,Flores, CABA</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  estudio.....@GMT.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> +59 9 11000000</p>
+                <p><i class="fas fa-print me-3"></i> +59 9 11000000</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+
+          <!-- Grid container -->
+          <div class="container p-4 pb-0 text-center text-dark">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+              <!-- Facebook -->
+              <a
+                href="https:\\facebook.com"
+                target="_blank"
+                role="button"
+                ><img class="iconos" src="../imagenes/facebook.png"></img
+              ></a>
+        
+              <!-- Twitter -->
+              <a
+                href="https:\\twitter.com"
+                target="_blank"
+                role="button"
+                ><img class="iconos" src="../imagenes/twitter.png"></img
+                ></a>
+        
+              <!-- Instagram -->
+              <a
+                href="https:\\instagram.com"
+                target="_blank"
+                role="button"
+                ><img class="iconos" src="../imagenes/instagram.png"></img
+                ></a>
+        
+              <!-- Instagram -->
+              <a
+                href="https:\\linkedin.com"
+                target="_blank"
+                role="button"
+                ><img class="iconos" src="../imagenes/linkedin.png"></img
+                ></a>
+
+            </section>
+            <!-- Section: Social media -->
+          </div>
+          <!-- Grid container -->
+        
+          <!-- Copyright -->
+          <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.233);">
+            © 2022 Copyright:
+            <a class="text-dark" href="#">GMT.com.ar</a>
+          </div>
+          <!-- Copyright -->
+
+
+  </footer>
 
     <script src="./scripts/scripts.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
