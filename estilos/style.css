@@ -86,3 +86,51 @@
     max-height: 50vh;
     width: auto;
 }
+
+/* @media (min-width:720px){ */
+
+    .botonWhatsapp{
+        position:fixed;
+        bottom:33px;
+        right:15px;
+        border-radius: 25px;
+        z-index: 200;
+    
+    }
+
+    .botonWhat:hover{
+        cursor:pointer;
+    }
+    .botonWhatsapp>img{
+        height: 8vh;
+        width: auto;
+    }
+
+    .QR{
+        background-color: rgb(255, 255, 255);
+        height: 22vh;
+        width: auto;
+        position:fixed;
+        bottom:110px;
+        right:50px;
+        border-radius: 25px;
+        z-index: 200;
+    }
+/* } */
+
+.noMostrar{
+    display:none;
+}
+
+/* @media(max-width:719px){
+    .botonWhatsapp,.botonWhat{
+        display: none;
+    }
+    .QR{
+        display:none
+    }
+} */
+
+script{
+    display: none;
+}
