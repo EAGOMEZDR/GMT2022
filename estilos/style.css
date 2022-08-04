@@ -18,7 +18,7 @@
 }
 
 .logoIMG{
-    max-height: 18vh;
+    max-height: 15vh;
 
 }
 
@@ -131,6 +131,18 @@
     }
 } */
 
+.mainContacto__h2{
+    text-align: center;
+    text-decoration:underline;
+}
+.mainNosotros__h2{
+    text-align: center;
+    text-decoration:underline;
+}
+.mainPreguntas__h2{
+    text-align: center;
+    text-decoration:underline;
+}
 script{
     display: none;
 }
