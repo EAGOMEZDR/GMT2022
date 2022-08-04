@@ -43,14 +43,10 @@
     width: 8vh;
 }
 
-.navMenu{
-    padding: 0 5vh;
-    margin: 0 5vh;
-}
 
 .navMenu > ul >li, .navMenu > ul >li>ul>li{
-    padding: 0 5vh;
-    font-size: 2vh;
+    padding: 0 3vh;
+    font-size: 1.8vh;
     font-weight: bold;
     
 }
@@ -87,7 +83,7 @@
     width: auto;
 }
 
-/* @media (min-width:720px){ */
+@media (min-width:720px){
 
     .botonWhatsapp{
         position:fixed;
@@ -104,32 +100,33 @@
     .botonWhatsapp>img{
         height: 8vh;
         width: auto;
+
     }
 
     .QR{
         background-color: rgb(255, 255, 255);
-        height: 22vh;
+        height: 23vh;
         width: auto;
         position:fixed;
         bottom:110px;
         right:50px;
-        border-radius: 25px;
         z-index: 200;
+        border:1px solid black;
     }
-/* } */
+}
 
 .noMostrar{
     display:none;
 }
 
-/* @media(max-width:719px){
+@media(max-width:719px){
     .botonWhatsapp,.botonWhat{
         display: none;
     }
     .QR{
         display:none
     }
-} */
+}
 
 .mainContacto__h2{
     text-align: center;
@@ -145,4 +142,9 @@
 }
 script{
     display: none;
+}
+
+.botonPreg{
+    padding:1vh;
+    margin:1vh;
 }
